@@ -1,6 +1,6 @@
 dependanceParser
 =======
 
-A dependance parser.
+A dependence parser.
 
 ## License
