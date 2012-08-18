@@ -1,0 +1,1 @@
+dependenceRequire( ['mod_b.js','mod_c.js'] );

@@ -11,5 +11,6 @@
         "url": "git@github.com:Neekey/dependenceParser.js.git"
     },
     "dependencies": {
+        "underscore": "*"
     }
 }
