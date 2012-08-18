@@ -1,0 +1,15 @@
+{
+    "name": "dependanceParser",
+    "description": "A dependance parser.",
+    "version": "0.0.1",
+    "author": "Neekey ni184775761@gmail.com",
+    "keywords": [ "dependanceParser" ],
+    "main": "index.js",
+    "bin": { "dependanceParser": "./bin/dependanceParser" },
+    "repository": {
+    "type": "git",
+        "url": "git@github.com:Neekey/dependanceParser.git"
+    },
+    "dependencies": {
+    }
+}
