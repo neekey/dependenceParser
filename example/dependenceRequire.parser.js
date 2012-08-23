@@ -1,6 +1,9 @@
 // Dependence parser for `dependenceRequire(['a.js','b.js'])` like.
-module.exports = function( data ){
+var Fs = require( 'fs' );
 
+module.exports = function( filePath ){
+
+    var data = Fs.readFileSync( filePath).toString();
     var Ex = /^dependenceRequire\s*\(\s*(\[?\s*[\w'"\.\/,\-]+\s*\]?)\s*\)/g;
     var dependenceList = [];
     var testResult;

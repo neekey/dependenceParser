@@ -14,8 +14,11 @@ dependenceParser
 下面为`parser`的定义，唯一需要注意的是，`parser`是一个`function`,它接受一个参数，也就是需要解析的文件字符串，最后返回一个依赖文件列表数组。
 ```
 // Dependence parser for `dependenceRequire(['a.js','b.js'])` like.
-module.exports = function( data ){
+var Fs = require( 'fs' );
 
+module.exports = function( filePath ){
+
+    var data = Fs.readFileSync( filePath).toString();
     var Ex = /^dependenceRequire\s*\(\s*(\[?\s*[\w'"\.\/,\-]+\s*\]?)\s*\)/g;
     var dependenceList = [];
     var testResult;
