@@ -1,11 +1,11 @@
 {
-    "name": "dependenceParser",
+    "name": "dependenceparser",
     "description": "A dependence parser.",
     "version": "0.0.2",
     "author": "Neekey ni184775761@gmail.com",
     "keywords": [ "dependenceParser.js" ],
     "main": "index.js",
-    "bin": { "dependanceParser": "./bin/dependenceParser.js" },
+    "bin": { "dependanceParser": "./bin/dependenceParser" },
     "repository": {
     "type": "git",
         "url": "git@github.com:Neekey/dependenceParser.js.git"
